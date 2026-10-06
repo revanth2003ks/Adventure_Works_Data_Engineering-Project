@@ -64,6 +64,8 @@ A single metadata-driven pipeline copies all files into the `bronze` container:
 
 Adding a new file only needs a new entry in the list; the pipeline stays unchanged.
 
+<img width="1919" height="864" alt="Screenshot 2026-10-06 122300" src="https://github.com/user-attachments/assets/9e185da3-8d8a-4099-afa9-fe8385024e5c" />
+
 ### 2. Transformation: Azure Databricks
 
 PySpark notebooks read the CSVs from `bronze`, transform them, and write Parquet to `silver`.
