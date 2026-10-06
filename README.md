@@ -6,14 +6,10 @@ An end-to-end data engineering pipeline on Azure using the **AdventureWorks** da
 
 Raw CSV files are pulled from GitHub with **Azure Data Factory**, stored in **Azure Data Lake Storage Gen2**, cleaned with **Azure Databricks (PySpark)**, served through **Azure Synapse Analytics**, and visualised in **Power BI**.
 
-<img width="2576" height="1444" alt="architecture" src="https://github.com/user-attachments/assets/1abcb3cc-4cba-4eee-94c3-dc2fd836b3dd" />
-
-
 ---
-
 ## Architecture
 
-
+<img width="2576" height="1444" alt="architecture" src="https://github.com/user-attachments/assets/1abcb3cc-4cba-4eee-94c3-dc2fd836b3dd" />
 
 **Data flow:** GitHub (HTTP) → Data Factory → Data Lake (Bronze) → Databricks → Data Lake (Silver) → Synapse → Data Lake (Gold) → Power BI
 
