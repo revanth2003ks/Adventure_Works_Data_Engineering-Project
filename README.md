@@ -13,7 +13,7 @@ Raw CSV files are pulled from GitHub with **Azure Data Factory**, stored in **Az
 
 ## Architecture
 
-![Architecture](images/architecture.jpg)
+
 
 **Data flow:** GitHub (HTTP) → Data Factory → Data Lake (Bronze) → Databricks → Data Lake (Silver) → Synapse → Data Lake (Gold) → Power BI
 
