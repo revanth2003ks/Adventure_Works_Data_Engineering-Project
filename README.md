@@ -1,6 +1,5 @@
 # Adventure_Works_Data_Engineering-Project
 
-# AW Azure Data Engineering Project
 
 An end-to-end data engineering pipeline on Azure using the **AdventureWorks** dataset and the **Medallion Architecture** (Bronze → Silver → Gold).
 
